@@ -1,0 +1,10 @@
+# 1672. Richest Customer Wealth
+You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has.
+
+A customer"'"s wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
+
+풀이
+for문을 이용해 accounts리스트에서 리스트를 받아 각각의 리스트의 합을 sumlist에 저장한다.
+기준값(x)을 sumlist의 첫번쨰 값으로 설정한다.
+for문을 이용해 sumlist에서 값(c)을 가져와 x와 비교한다.
+만약 x보다 c가 더 크거나 같다면 x를 c로 바꾼다.
